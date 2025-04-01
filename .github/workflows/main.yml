@@ -135,6 +135,6 @@ jobs:
       env:
         AUTHOR: "Mr Bean"
       run: |
-        mvn clean deploy --file pom.xml -DmuleDeploy -Denvironment="dev" -Dca_client_id="${{ secrets.CA_CLIENT_ID }}" -Dca_client_secret="${{ secrets.CA_CLIENT_SECRET }}" -DapplicationName="cicd-andresc" -Dmessage="mule and cloudhub 2.0 rocks!" 
+        mvn clean deploy --file pom.xml -DmuleDeploy -Denvironment="dev" -Dca_client_id="${{ secrets.CA_CLIENT_ID }}" -Dca_client_secret="${{ secrets.CA_CLIENT_SECRET }}" -DapplicationName="cicd-andresc" -Dmessage="mule integrates all AI capabalities" 
 
 
